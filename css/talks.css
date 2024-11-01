@@ -1,0 +1,66 @@
+div.wp-talks {
+	clear: both;
+	background-color: #FFF;
+	margin-bottom: 10px;
+	padding: 5px;
+}
+div.wp-talks-container:after {
+	/* This is a clearfix! */
+	content: "";
+	display: table;
+	clear: both;
+}
+div.wp-talks-details {
+	width: 50%;
+	float: left;
+}
+div.wp-talks-audio {
+	width: 50%;
+	float: right;
+}
+div.wp-talks-timestamp {
+	border-bottom: 1px solid #003366;
+	margin-bottom: 10px;
+	margin-top: 15px;
+	clear: both;
+}
+a.wp-talks-more {
+	font-size: 12px;
+}
+a.wp-talks-more:hover {
+	cursor: pointer;
+}
+.wp-talks-meta {
+	font-size: 12px;
+}
+.wp-talks-hidden-meta {
+	display: none;
+}
+.wp-talks-title{
+	margin: 0;
+	padding-top: 0;
+}
+.wp-talks-content{
+}
+.wp-talks-audio-player{
+	float: right;
+}
+.wp-talks-download{
+	font-size: 12px;
+	position: relative; /* Allows position: absolute on the note */
+}
+.wp-talks-download-note{
+	display: none;
+	font-size: 12px;
+	background-color: #F4F4F4;
+	width: 300px;
+	position: absolute;
+	left: 30px;
+	padding: 8px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: 2px 2px 2px #000000;
+	-moz-box-shadow: 2px 2px 2px #000000;
+	box-shadow: 2px 2px 2px #000000; 	
+}
